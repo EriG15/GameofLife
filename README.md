@@ -38,7 +38,7 @@ From this generation the next generation will be created, and thus the cycle con
 When the program is executed, a window will pop up prompting the user to either generate a random world or generate a preset world (3 presets can be found in the ```/world``` folder). If the user is generating a random world, they have the options to set the size of each cell (measured in pixels), the row size and the column size. The config window is shown below.
 <br>
 
-![config](./assets/random.png)
+![config](./assets/config.png)
 
 <br>
 
