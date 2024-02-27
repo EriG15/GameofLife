@@ -37,7 +37,8 @@ From this generation the next generation will be created, and thus the cycle con
 
 When the program is executed, a window will pop up prompting the user to either generate a random world or generate a preset world (3 presets can be found in the ```/world``` folder). If the user is generating a random world, they have the options to set the size of each cell (measured in pixels), the row size and the column size. The config window is shown below.
 <br>
-![config](./assets/config.png)
+![alt text](https://github.com/EriG15/GameofLife/blob/main/assets/config.png)
+<!-- ![config](./assets/config.png) -->
 <br>
 
 Once the world has been configured, the config will close and a simulation window will pop up. Here the user can see a grid with their starting world. There will be several controls on the left hand side:
