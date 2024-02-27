@@ -49,6 +49,7 @@ Once the world has been configured, the config will close and a simulation windo
 Below are two potential starting worlds, one being a randomized world and the other being a preset.
 <br>
 ![random](assets/random.png)
+<br>
 ![preset](assets/preset.png)
 <br>
 If the user ends the game or the board becomes still (where no cells are coming to life or dying), the game will no longer progress through generations of cells and the control buttons will clear out as options for where to take the user next replace them. These options are as follows:
@@ -60,6 +61,7 @@ If the user ends the game or the board becomes still (where no cells are coming 
 This screen is shown below.
 <br>
 ![endscreen](assets/endscreen.png)
+<br>
 
 ## About File Loading
 
