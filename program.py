@@ -1,4 +1,4 @@
-""" projects.gameoflife.program
+""" File: program.py
 
     This module starts a simulation of Conway's Game of Life.
 
@@ -6,9 +6,8 @@
     in value 10 to the cell_size and values 50 and 50 to rows 
     and columns.
 
-    For the best success in running this file, run the following
-    command:
-    >>> python -m projects.gameoflife.program
+    To play the game, run this file or type the following command:
+    >>> python -m program
 """
 
 from config import Config

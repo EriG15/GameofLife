@@ -1,4 +1,4 @@
-""" projects.gameoflife.simulator
+""" File: simulator.py
     
     This module holds the Simulator class.
 """

@@ -1,4 +1,4 @@
-""" projects.gameoflife.config
+""" File: config.py
     
     This module holds the Config class.
 """
@@ -119,7 +119,7 @@ class Config:
         """ Updates cell_size based on cell size text entry.
         
             If the input value is less than 1, the value will be 1.
-            If the input value is greater than 30, the value will be 30.
+            If the input value is greater than 50, the value will be 50.
 
             Args:
                 event: the text box event which called the function.
@@ -129,9 +129,9 @@ class Config:
         if self.cell_size_text.get() == "" or int(self.cell_size_text.get()) < 1:
             self.cell_size_text.delete(0, tk.END)
             self.cell_size_text.insert(0, "1")
-        elif int(self.cell_size_text.get()) > 30:
+        elif int(self.cell_size_text.get()) > 50:
             self.cell_size_text.delete(0, tk.END)
-            self.cell_size_text.insert(0, "30")
+            self.cell_size_text.insert(0, "50")
         if self.cell_size != int(self.cell_size_text.get()):
             self.cell_size = int(self.cell_size_text.get())
         
@@ -139,7 +139,7 @@ class Config:
         """ Updates cell_size based on rows text entry.
         
             If the input value is less than 10, the value will be 10.
-            There is no max value.
+            If the input value is greater than 1000, the value will be 1000.
 
             Args:
                 event: the text box event which called the function.
@@ -149,6 +149,9 @@ class Config:
         if self.row_text.get() == "" or int(self.row_text.get()) < 10:
             self.row_text.delete(0, tk.END)
             self.row_text.insert(0, "10")
+        elif int(self.row_text.get()) > 1000:
+            self.row_text.delete(0, tk.END)
+            self.row_text.insert(0, "1000")
         if self.rows != int(self.row_text.get()):
             self.rows = int(self.row_text.get())
 
@@ -156,7 +159,7 @@ class Config:
         """ Updates cell_size based on columns text entry.
         
             If the input value is less than 10, the value will be 10.
-            There is no max value.
+            If the input value is greater than 1000, the value will be 1000.
 
             Args:
                 event: the text box event which called the function.
@@ -166,6 +169,9 @@ class Config:
         if self.col_text.get() == "" or int(self.col_text.get()) < 10:
             self.col_text.delete(0, tk.END)
             self.col_text.insert(0, "10")
+        elif int(self.col_text.get()) > 1000:
+            self.col_text.delete(0, tk.END)
+            self.col_text.insert(0, "1000")
         if self.columns != int(self.col_text.get()):
             self.columns = int(self.col_text.get())
 
