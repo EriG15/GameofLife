@@ -37,7 +37,9 @@ From this generation the next generation will be created, and thus the cycle con
 
 When the program is executed, a window will pop up prompting the user to either generate a random world or generate a preset world (3 presets can be found in the ```/world``` folder). If the user is generating a random world, they have the options to set the size of each cell (measured in pixels), the row size and the column size. The config window is shown below.
 <br>
+
 ![config](./assets/random.png)
+
 <br>
 
 Once the world has been configured, the config will close and a simulation window will pop up. Here the user can see a grid with their starting world. There will be several controls on the left hand side:
@@ -48,9 +50,12 @@ Once the world has been configured, the config will close and a simulation windo
 <br>
 Below are two potential starting worlds, one being a randomized world and the other being a preset.
 <br>
+
 ![random](./assets/random.png)
+
 ![preset](./assets/preset.png)
 <br>
+
 If the user ends the game or the board becomes still (where no cells are coming to life or dying), the game will no longer progress through generations of cells and the control buttons will clear out as options for where to take the user next replace them. These options are as follows:
 * An option to quit the game.
 * An option to take the user back to the config window.
@@ -59,7 +64,9 @@ If the user ends the game or the board becomes still (where no cells are coming 
 <br>
 This screen is shown below.
 <br>
+
 ![endscreen](./assets/endscreen.png)
+
 <br>
 
 ## About File Loading
