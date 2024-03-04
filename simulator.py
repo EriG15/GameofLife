@@ -357,7 +357,7 @@ class Simulator:
                         if board[row][column]:
                             world.write("X")
                         else:
-                            world.write("O")
+                            world.write("-")
                     world.write("\n")
 
     def save_initial_world(self):

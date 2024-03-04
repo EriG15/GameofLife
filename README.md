@@ -76,7 +76,7 @@ The configuration window takes a ```.txt``` file in the format:
 size:[cell size]
 rows:[row number]
 cols:[col number]
-[each row of the board is a line here. Live cells in the row are marked by "X" while dead cells are marked by "O"]
+[each row of the board is a line here. Live cells in the row are marked by "X" while dead cells are marked by "-"]
 ```
 If the filepath cannot be found or the file fails to load properly, an error message will be displayed to the user.
 
